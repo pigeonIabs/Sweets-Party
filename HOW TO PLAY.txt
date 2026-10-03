@@ -1,0 +1,43 @@
+KIRBY'S SWEETS PARTY
+
+LOCAL SINGLE PLAYER
+
+1. Double click launch-game.bat.
+2. Wait for the local game to open in your browser.
+3. Leave the online room code blank.
+4. Choose Classic or Extended under Local single player.
+5. Choose the number and difficulty of AI rivals.
+6. Start the game.
+
+The game always starts locally at 127.0.0.1. The game folder can be copied to
+another Windows computer and launched there directly. Required tools are prepared
+automatically under that computer's LocalAppData folder.
+
+PRIVATE ONLINE GAME
+
+Double click launch-game.bat normally. On the main menu, choose Classic room or
+Extended room under Create online room. The game prepares the Cloudflare tool
+outside the game folder at that moment, starts the private connection, creates a
+room code, and shows the online lobby. Use Copy invite and keep the launcher
+window open until the match ends.
+
+To enter a room, open the host's invite, type the five character room code, and
+choose Join Room. A blank room code always leaves the main menu in local single
+player mode.
+
+Online rooms can mix human and AI players. A joining human automatically takes
+one reserved AI seat when the lobby is full. The host can adjust the remaining
+AI seats and difficulties until the match starts.
+
+Your friends only need a current web browser. They do not need this folder.
+The invite uses a temporary HTTPS trycloudflare.com address. It does not show
+your home IP address and it does not require router port forwarding.
+
+The temporary address changes whenever the launcher starts. Cloudflare operates
+the free relay and can observe connection metadata. Its Quick Tunnel service has
+no uptime guarantee.
+
+TRUSTED HOME NETWORK GAME
+
+Online rooms use the same main menu flow on a home network. Close the launcher
+window to stop hosting.

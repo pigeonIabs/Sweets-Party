@@ -1,0 +1,33 @@
+KIRBY SWEETS PARTY LICENSING
+
+Original project-authored program code is licensed under the GNU Affero
+General Public License, version 3 only, identified as AGPL-3.0-only.
+Copyright in each contribution remains with its author. The complete
+license is supplied in LICENSE.
+
+Artwork, music, recordings, fonts, logos, trademarks, reproduced manuals,
+and other third-party material are excluded from that code grant.
+Nintendo, HAL Laboratory, and the relevant rights holders retain their
+respective rights. This is an independent, unofficial fan project.
+Permission to redistribute excluded material comes from a separate
+applicable license, the relevant rights holder, or applicable law.
+
+The achievement mural is Kirby 30th Anniversary - Orange Ocean by RK-d.
+It retains its separate CC BY-NC-SA 3.0 license. The artist credit,
+original source link, license link, and description of the landscape
+crop and puzzle masks are in assets/achievements/ARTWORK-LICENSE.txt.
+That artwork's noncommercial and share-alike conditions remain in force.
+
+Runtime dependency licenses are in LICENSES/runtime-dependencies.txt.
+Fredoka and Nunito retain the SIL Open Font License, version 1.1, with
+their full notices in LICENSES/Fredoka-OFL.txt and LICENSES/Nunito-OFL.txt.
+
+The matching original game code and rebuild files are provided in a
+separate source download. The source archive includes the compressed
+assets required for a complete rebuild.
+https://github.com/pigeonIabs/Sweets-Party/releases/download/v0.2.0/game-source.zip
+
+When redistributing the game, provide matching corresponding source
+through a method permitted by AGPL. Modified versions supporting remote
+interaction must offer corresponding source as required by section 13.
+Preserve applicable credits, licenses, and notices.

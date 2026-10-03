@@ -1,0 +1,320 @@
+{
+  "project": "Kirby's Sweets Party Manual",
+  "originalsUntouched": true,
+  "tileEncoding": "webp",
+  "tileCompression": "lossy size-tiered q24-q50, max-side 2400px",
+  "pages": [
+    {
+      "id": "page-01",
+      "source": "page_1.png",
+      "width": 1626,
+      "height": 2400,
+      "tileSize": 512,
+      "maxLevel": 12,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "level": 1,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "level": 2,
+          "width": 2,
+          "height": 3
+        },
+        {
+          "level": 3,
+          "width": 4,
+          "height": 5
+        },
+        {
+          "level": 4,
+          "width": 7,
+          "height": 10
+        },
+        {
+          "level": 5,
+          "width": 13,
+          "height": 19
+        },
+        {
+          "level": 6,
+          "width": 26,
+          "height": 38
+        },
+        {
+          "level": 7,
+          "width": 51,
+          "height": 75
+        },
+        {
+          "level": 8,
+          "width": 102,
+          "height": 150
+        },
+        {
+          "level": 9,
+          "width": 204,
+          "height": 300
+        },
+        {
+          "level": 10,
+          "width": 407,
+          "height": 600
+        },
+        {
+          "level": 11,
+          "width": 813,
+          "height": 1200
+        },
+        {
+          "level": 12,
+          "width": 1626,
+          "height": 2400
+        }
+      ],
+      "tileBaseUrl": "/manual/tiles/page-01",
+      "overlayUrl": "/manual/overlays/page-01.en.json",
+      "tileExtension": "webp"
+    },
+    {
+      "id": "page-02",
+      "source": "page_2.png",
+      "width": 1626,
+      "height": 2400,
+      "tileSize": 512,
+      "maxLevel": 12,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "level": 1,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "level": 2,
+          "width": 2,
+          "height": 3
+        },
+        {
+          "level": 3,
+          "width": 4,
+          "height": 5
+        },
+        {
+          "level": 4,
+          "width": 7,
+          "height": 10
+        },
+        {
+          "level": 5,
+          "width": 13,
+          "height": 19
+        },
+        {
+          "level": 6,
+          "width": 26,
+          "height": 38
+        },
+        {
+          "level": 7,
+          "width": 51,
+          "height": 75
+        },
+        {
+          "level": 8,
+          "width": 102,
+          "height": 150
+        },
+        {
+          "level": 9,
+          "width": 204,
+          "height": 300
+        },
+        {
+          "level": 10,
+          "width": 407,
+          "height": 600
+        },
+        {
+          "level": 11,
+          "width": 813,
+          "height": 1200
+        },
+        {
+          "level": 12,
+          "width": 1626,
+          "height": 2400
+        }
+      ],
+      "tileBaseUrl": "/manual/tiles/page-02",
+      "overlayUrl": "/manual/overlays/page-02.en.json",
+      "tileExtension": "webp"
+    },
+    {
+      "id": "page-03",
+      "source": "page_3.png",
+      "width": 1655,
+      "height": 2400,
+      "tileSize": 512,
+      "maxLevel": 12,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "level": 1,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "level": 2,
+          "width": 2,
+          "height": 3
+        },
+        {
+          "level": 3,
+          "width": 4,
+          "height": 5
+        },
+        {
+          "level": 4,
+          "width": 7,
+          "height": 10
+        },
+        {
+          "level": 5,
+          "width": 13,
+          "height": 19
+        },
+        {
+          "level": 6,
+          "width": 26,
+          "height": 38
+        },
+        {
+          "level": 7,
+          "width": 52,
+          "height": 75
+        },
+        {
+          "level": 8,
+          "width": 104,
+          "height": 150
+        },
+        {
+          "level": 9,
+          "width": 207,
+          "height": 300
+        },
+        {
+          "level": 10,
+          "width": 414,
+          "height": 600
+        },
+        {
+          "level": 11,
+          "width": 828,
+          "height": 1200
+        },
+        {
+          "level": 12,
+          "width": 1655,
+          "height": 2400
+        }
+      ],
+      "tileBaseUrl": "/manual/tiles/page-03",
+      "overlayUrl": "/manual/overlays/page-03.en.json",
+      "tileExtension": "webp"
+    },
+    {
+      "id": "page-04",
+      "source": "page_4.png",
+      "width": 1653,
+      "height": 2400,
+      "tileSize": 512,
+      "maxLevel": 12,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "level": 1,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "level": 2,
+          "width": 2,
+          "height": 3
+        },
+        {
+          "level": 3,
+          "width": 4,
+          "height": 5
+        },
+        {
+          "level": 4,
+          "width": 7,
+          "height": 10
+        },
+        {
+          "level": 5,
+          "width": 13,
+          "height": 19
+        },
+        {
+          "level": 6,
+          "width": 26,
+          "height": 38
+        },
+        {
+          "level": 7,
+          "width": 52,
+          "height": 75
+        },
+        {
+          "level": 8,
+          "width": 104,
+          "height": 150
+        },
+        {
+          "level": 9,
+          "width": 207,
+          "height": 300
+        },
+        {
+          "level": 10,
+          "width": 414,
+          "height": 600
+        },
+        {
+          "level": 11,
+          "width": 827,
+          "height": 1200
+        },
+        {
+          "level": 12,
+          "width": 1653,
+          "height": 2400
+        }
+      ],
+      "tileBaseUrl": "/manual/tiles/page-04",
+      "overlayUrl": "/manual/overlays/page-04.en.json",
+      "tileExtension": "webp"
+    }
+  ]
+}

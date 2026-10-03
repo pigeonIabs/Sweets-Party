@@ -1,0 +1,19 @@
+{
+  "pageId": "page-04",
+  "source": "p4.png",
+  "defaults": {
+    "fontFamily": "Aptos, sans-serif",
+    "fontSize": 84,
+    "fontWeight": "700",
+    "lineHeight": 1.16,
+    "letterSpacing": 0,
+    "color": "#212121",
+    "strokeColor": "#fff6dd",
+    "strokeWidth": 0,
+    "align": "left",
+    "padding": 0,
+    "backgroundColor": "transparent",
+    "rotation": 0
+  },
+  "blocks": []
+}

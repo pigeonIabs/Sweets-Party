@@ -1,0 +1,684 @@
+{
+  "recipes": [
+    [
+      1,
+      "Fountain of Dreams Drops",
+      "pink",
+      1,
+      "sugar",
+      {
+        "sugar": 1,
+        "herb": 1
+      },
+      [
+        "bronto",
+        "waddle"
+      ]
+    ],
+    [
+      2,
+      "Whispy Herb & Mixed Berry Tea",
+      "pink",
+      2,
+      "herb",
+      {
+        "herb": 1,
+        "berry": 1
+      },
+      [
+        "cappy",
+        "waddle"
+      ]
+    ],
+    [
+      3,
+      "Chef Kawasaki's Secret Fruit Jam",
+      "pink",
+      3,
+      "sugar",
+      {
+        "sugar": 1,
+        "berry": 1,
+        "fruit": 2
+      },
+      [
+        "bronto",
+        "bronto"
+      ]
+    ],
+    [
+      4,
+      "Galbo's Fiery Freeze",
+      "pink",
+      3,
+      "sugar",
+      {
+        "sugar": 2,
+        "milk": 1,
+        "berry": 1
+      },
+      [
+        "bouncy",
+        "cappy"
+      ]
+    ],
+    [
+      5,
+      "Star Navel Orange Soda",
+      "pink",
+      3,
+      "sugar",
+      {
+        "sugar": 1,
+        "berry": 1,
+        "fruit": 1
+      },
+      [
+        "bronto",
+        "bronto"
+      ]
+    ],
+    [
+      6,
+      "Frozen Hillside Strawberry Shaved Ice",
+      "pink",
+      4,
+      "sugar",
+      {
+        "sugar": 1,
+        "milk": 1,
+        "berry": 1
+      },
+      [
+        "waddle",
+        "bouncy"
+      ]
+    ],
+    [
+      7,
+      "Star Block Honey Toast",
+      "pink",
+      5,
+      "sugar",
+      {
+        "sugar": 1,
+        "milk": 1,
+        "butter": 1
+      },
+      [
+        "cappy",
+        "cappy"
+      ]
+    ],
+    [
+      8,
+      "Kirby's Fluffy Pancake",
+      "pink",
+      7,
+      "berry",
+      {
+        "berry": 2,
+        "egg": 1,
+        "butter": 1
+      },
+      [
+        "bronto",
+        "cappy"
+      ]
+    ],
+    [
+      9,
+      "Surfing Citrus Wave",
+      "pink",
+      7,
+      "herb",
+      {
+        "herb": 1,
+        "chocolate": 2,
+        "egg": 2
+      },
+      [
+        "cappy",
+        "bouncy"
+      ]
+    ],
+    [
+      10,
+      "Aqua Star Strawberry Mochi",
+      "yellow",
+      5,
+      "sugar",
+      {
+        "sugar": 1,
+        "herb": 2,
+        "berry": 1
+      },
+      [
+        "waddle",
+        "bronto"
+      ]
+    ],
+    [
+      11,
+      "Choco-Nut Star Donut",
+      "yellow",
+      3,
+      "chocolate",
+      {
+        "chocolate": 2,
+        "butter": 1
+      },
+      [
+        "bouncy",
+        "cappy"
+      ]
+    ],
+    [
+      12,
+      "Drawcia's Dress Crêpe",
+      "yellow",
+      7,
+      "milk",
+      {
+        "milk": 2,
+        "egg": 2,
+        "butter": 1
+      },
+      [
+        "bronto",
+        "bouncy"
+      ]
+    ],
+    [
+      13,
+      "Fountain of Dreams Sparkling Mocktail",
+      "yellow",
+      6,
+      "sugar",
+      {
+        "sugar": 1,
+        "herb": 1,
+        "berry": 2
+      },
+      [
+        "cappy",
+        "bouncy"
+      ]
+    ],
+    [
+      14,
+      "Marshmallow Hot Chocolate",
+      "yellow",
+      5,
+      "chocolate",
+      {
+        "chocolate": 2,
+        "milk": 1
+      },
+      [
+        "bouncy",
+        "waddle"
+      ]
+    ],
+    [
+      15,
+      "Matcha Red Bean Fluffy Star Pancakes",
+      "yellow",
+      4,
+      "berry",
+      {
+        "berry": 1,
+        "fruit": 1,
+        "egg": 1
+      },
+      [
+        "bronto",
+        "cappy"
+      ]
+    ],
+    [
+      16,
+      "Star Block Gummy Bites",
+      "yellow",
+      5,
+      "herb",
+      {
+        "herb": 2,
+        "chocolate": 1,
+        "fruit": 1
+      },
+      [
+        "bouncy",
+        "bronto"
+      ]
+    ],
+    [
+      17,
+      "Waddle Dee's Food Stall Skewer",
+      "yellow",
+      3,
+      "chocolate",
+      {
+        "chocolate": 1,
+        "berry": 1,
+        "fruit": 1
+      },
+      [
+        "cappy",
+        "bronto"
+      ]
+    ],
+    [
+      18,
+      "Warp Star Choco Bun",
+      "yellow",
+      4,
+      "chocolate",
+      {
+        "chocolate": 1,
+        "egg": 1,
+        "butter": 1
+      },
+      [
+        "cappy",
+        "bronto"
+      ]
+    ],
+    [
+      19,
+      "Dream Land Sunrise Custard Souffle",
+      "blue",
+      3,
+      "sugar",
+      {
+        "sugar": 1,
+        "egg": 2
+      },
+      [
+        "cappy",
+        "waddle"
+      ]
+    ],
+    [
+      20,
+      "Invincibility Candy",
+      "blue",
+      7,
+      "sugar",
+      {
+        "sugar": 2,
+        "herb": 1,
+        "milk": 2
+      },
+      [
+        "cappy",
+        "cappy"
+      ]
+    ],
+    [
+      21,
+      "Kirby's Peachy Pudding",
+      "blue",
+      4,
+      "egg",
+      {
+        "milk": 1,
+        "fruit": 1,
+        "egg": 1
+      },
+      [
+        "waddle",
+        "cappy"
+      ]
+    ],
+    [
+      22,
+      "Meta Knight's Late-Night Secret Parfait",
+      "blue",
+      5,
+      "milk",
+      {
+        "sugar": 1,
+        "chocolate": 1,
+        "milk": 1
+      },
+      [
+        "waddle",
+        "bronto"
+      ]
+    ],
+    [
+      23,
+      "Nutty Noon Pretzel",
+      "blue",
+      3,
+      "sugar",
+      {
+        "sugar": 1,
+        "chocolate": 1,
+        "butter": 1
+      },
+      [
+        "bouncy",
+        "bouncy"
+      ]
+    ],
+    [
+      24,
+      "Parasol Color Twist",
+      "blue",
+      4,
+      "fruit",
+      {
+        "milk": 1,
+        "berry": 1,
+        "fruit": 2
+      },
+      [
+        "waddle",
+        "cappy"
+      ]
+    ],
+    [
+      25,
+      "Popstar Cookie",
+      "blue",
+      4,
+      "butter",
+      {
+        "sugar": 1,
+        "egg": 1,
+        "butter": 1
+      },
+      [
+        "waddle",
+        "waddle"
+      ]
+    ],
+    [
+      26,
+      "Star Drops",
+      "blue",
+      1,
+      "herb",
+      {
+        "herb": 1,
+        "berry": 1
+      },
+      [
+        "waddle",
+        "bronto"
+      ]
+    ],
+    [
+      27,
+      "Whispy Woods Jewel Berry Mousse",
+      "blue",
+      5,
+      "milk",
+      {
+        "milk": 1,
+        "berry": 2,
+        "egg": 1
+      },
+      [
+        "bronto",
+        "cappy"
+      ]
+    ],
+    [
+      28,
+      "Choco Bomb",
+      "brown",
+      4,
+      "milk",
+      {
+        "herb": 1,
+        "chocolate": 2,
+        "milk": 1
+      },
+      [
+        "bouncy",
+        "waddle"
+      ]
+    ],
+    [
+      29,
+      "Dark Matter Chocolate Fruit Tart",
+      "brown",
+      7,
+      "butter",
+      {
+        "chocolate": 1,
+        "fruit": 2,
+        "butter": 2
+      },
+      [
+        "waddle",
+        "waddle"
+      ]
+    ],
+    [
+      30,
+      "King Dedede's Special Shortcake",
+      "brown",
+      8,
+      "sugar",
+      {
+        "sugar": 1,
+        "herb": 2,
+        "milk": 2
+      },
+      [
+        "bouncy",
+        "bouncy"
+      ]
+    ],
+    [
+      31,
+      "Dream Land Sherbet Deluxe",
+      "brown",
+      4,
+      "chocolate",
+      {
+        "chocolate": 1,
+        "berry": 1,
+        "fruit": 1
+      },
+      [
+        "bouncy",
+        "bouncy"
+      ]
+    ],
+    [
+      32,
+      "Maxim Tomato Cupcake",
+      "brown",
+      5,
+      "herb",
+      {
+        "herb": 1,
+        "milk": 1,
+        "butter": 1
+      },
+      [
+        "bouncy",
+        "waddle"
+      ]
+    ],
+    [
+      33,
+      "Orange Cream Star Donut",
+      "brown",
+      3,
+      "herb",
+      {
+        "herb": 1,
+        "chocolate": 1,
+        "butter": 1
+      },
+      [
+        "bronto",
+        "cappy"
+      ]
+    ],
+    [
+      34,
+      "Paradise Coconut",
+      "brown",
+      6,
+      "herb",
+      {
+        "herb": 2,
+        "berry": 1,
+        "fruit": 1
+      },
+      [
+        "waddle",
+        "cappy"
+      ]
+    ],
+    [
+      35,
+      "Strawberry Star Donut",
+      "brown",
+      5,
+      "berry",
+      {
+        "berry": 1,
+        "egg": 1,
+        "butter": 2
+      },
+      [
+        "cappy",
+        "bouncy"
+      ]
+    ],
+    [
+      36,
+      "Twinkle Peach Cookie",
+      "brown",
+      4,
+      "fruit",
+      {
+        "fruit": 1,
+        "egg": 2,
+        "butter": 1
+      },
+      [
+        "bronto",
+        "bouncy"
+      ]
+    ]
+  ],
+  "guests": [
+    [
+      "Chip",
+      "pink",
+      1
+    ],
+    [
+      "ChuChu",
+      "pink",
+      2
+    ],
+    [
+      "Kine",
+      "pink",
+      2
+    ],
+    [
+      "Susie",
+      "pink",
+      2
+    ],
+    [
+      "Chilly",
+      "blue",
+      2
+    ],
+    [
+      "Coo",
+      "blue",
+      2
+    ],
+    [
+      "Magolor",
+      "blue",
+      2
+    ],
+    [
+      "Squishy",
+      "blue",
+      1
+    ],
+    [
+      "Broom Hatter",
+      "yellow",
+      1
+    ],
+    [
+      "Grizzo",
+      "yellow",
+      1
+    ],
+    [
+      "Hot Head",
+      "yellow",
+      2
+    ],
+    [
+      "Sir Kibble",
+      "yellow",
+      2
+    ],
+    [
+      "Waddle Doo",
+      "yellow",
+      2
+    ],
+    [
+      "Blade Knight",
+      "brown",
+      2
+    ],
+    [
+      "Grand Dee",
+      "brown",
+      2
+    ],
+    [
+      "Kabu",
+      "brown",
+      1
+    ],
+    [
+      "Rick",
+      "brown",
+      2
+    ],
+    [
+      "Scarfy",
+      "brown",
+      1
+    ],
+    [
+      "Lololo & Lalala",
+      "pair",
+      [
+        "pink",
+        "blue"
+      ],
+      5
+    ],
+    [
+      "Key Dee",
+      "mixed",
+      [
+        "yellow",
+        "brown"
+      ],
+      1
+    ]
+  ]
+}
