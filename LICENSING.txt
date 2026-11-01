@@ -25,7 +25,7 @@ their full notices in LICENSES/Fredoka-OFL.txt and LICENSES/Nunito-OFL.txt.
 The matching original game code and rebuild files are provided in a
 separate source download. The source archive includes the compressed
 assets required for a complete rebuild.
-https://github.com/pigeonIabs/Sweets-Party/releases/download/v0.2.0/game-source.zip
+https://github.com/pigeonIabs/Sweets-Party/releases/download/v0.2.1/game-source.zip
 
 When redistributing the game, provide matching corresponding source
 through a method permitted by AGPL. Modified versions supporting remote

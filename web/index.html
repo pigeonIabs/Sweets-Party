@@ -3,13 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (() => {
+        let savedTheme;
+        try {
+          savedTheme = localStorage.getItem("ksp-theme");
+        } catch {}
+        const theme = savedTheme === "night" || savedTheme === "dark" ? "night"
+          : savedTheme === "day" || savedTheme === "light" ? "day"
+          : matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day";
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme === "night" ? "dark" : "light";
+      })();
+    </script>
+    <style>
+      html { background-color: #795257; }
+      html[data-theme="night"] { background-color: #3c2932; }
+    </style>
+    <link rel="preload" as="image" href="/title-screen/kirbys-sweets-party-title-screen.avif" fetchpriority="high" />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/f-l.woff2" crossorigin />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Kirby's Sweets Party</title>
-    <script type="module" crossorigin src="/assets/index-CJoQZHGp.js"></script>
+    <script type="module" crossorigin src="/assets/index-CEilE6L1.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/react-vendor-_wwgRQlv.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-DqaJNpeb.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-tm7uyY4g.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
   </body>
 </html>

@@ -1,16 +1,16 @@
 @echo off
-setlocal
+setlocal EnableExtensions DisableDelayedExpansion
 cd /d "%~dp0"
 
 set "KSP_DEP_ROOT=%LOCALAPPDATA%\Kirby's Sweets Party\dependencies"
 set "KSP_NODE="
 if exist "%KSP_DEP_ROOT%\node-path.txt" set /p "KSP_NODE="<"%KSP_DEP_ROOT%\node-path.txt"
 if defined KSP_NODE if not exist "%KSP_NODE%" set "KSP_NODE="
-if defined KSP_NODE "%KSP_NODE%" -e "const v=process.versions.node.split('.');process.exit(v[0]*1000+v[1]>=20019?0:1)" >nul 2>nul
+if defined KSP_NODE "%KSP_NODE%" -e "const v=process.versions.node.split('.').map(Number);process.exit(v[0]*1000+v[1]>=20019?0:1)" >nul 2>nul
 if defined KSP_NODE if errorlevel 1 set "KSP_NODE="
 if not defined KSP_NODE if exist "%ProgramFiles%\nodejs\node.exe" set "KSP_NODE=%ProgramFiles%\nodejs\node.exe"
 if not defined KSP_NODE for /f "delims=" %%I in ('where node 2^>nul') do if not defined KSP_NODE set "KSP_NODE=%%I"
-if defined KSP_NODE "%KSP_NODE%" -e "const v=process.versions.node.split('.');process.exit(v[0]*1000+v[1]>=20019?0:1)" >nul 2>nul
+if defined KSP_NODE "%KSP_NODE%" -e "const v=process.versions.node.split('.').map(Number);process.exit(v[0]*1000+v[1]>=20019?0:1)" >nul 2>nul
 if defined KSP_NODE if errorlevel 1 set "KSP_NODE="
 
 if defined KSP_NODE goto launch_game
@@ -22,7 +22,7 @@ if errorlevel 1 goto dependency_repair_failed
 set "KSP_NODE="
 if exist "%KSP_DEP_ROOT%\node-path.txt" set /p "KSP_NODE="<"%KSP_DEP_ROOT%\node-path.txt"
 if defined KSP_NODE if not exist "%KSP_NODE%" set "KSP_NODE="
-if defined KSP_NODE "%KSP_NODE%" -e "const v=process.versions.node.split('.');process.exit(v[0]*1000+v[1]>=20019?0:1)" >nul 2>nul
+if defined KSP_NODE "%KSP_NODE%" -e "const v=process.versions.node.split('.').map(Number);process.exit(v[0]*1000+v[1]>=20019?0:1)" >nul 2>nul
 if defined KSP_NODE if errorlevel 1 set "KSP_NODE="
 if not defined KSP_NODE goto node_repair_failed
 
@@ -41,8 +41,7 @@ echo The local game host stopped with Windows exit code %KSP_HOST_EXIT%.
 echo The detailed cause appears directly above this message.
 echo Launch again after following that recovery guidance.
 pause
-endlocal
-exit /b %KSP_HOST_EXIT%
+endlocal & exit /b %KSP_HOST_EXIT%
 
 :dependency_repair_failed
 echo.

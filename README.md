@@ -6,4 +6,4 @@ Download this repository as a ZIP, extract it, and open `launch-game.bat` on Win
 
 Original code is licensed under AGPL-3.0-only. Assets retain their separate rights. See [LICENSING.txt](LICENSING.txt).
 
-[Matching original game code and rebuild files](https://github.com/pigeonIabs/Sweets-Party/releases/download/v0.2.0/game-source.zip).
+[Matching original game code and rebuild files](https://github.com/pigeonIabs/Sweets-Party/releases/download/v0.2.1/game-source.zip).
