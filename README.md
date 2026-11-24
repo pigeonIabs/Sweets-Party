@@ -1,9 +1,5 @@
-# Sweets Party
+# Kirby's Sweets Party
 
-An unofficial fan-made game for local play and optional online rooms.
+[Download the Windows game](https://github.com/pigeonIabs/Sweets-Party/releases/latest/download/Sweets-Party-Windows.zip). Extract the whole ZIP, open the game folder, and double-click `launch-game.bat`.
 
-Download this repository as a ZIP, extract it, and open `launch-game.bat` on Windows. The launcher prepares its runtime automatically.
-
-Original code is licensed under AGPL-3.0-only. Assets retain their separate rights. See [LICENSING.txt](LICENSING.txt).
-
-[Matching original game code and rebuild files](https://github.com/pigeonIabs/Sweets-Party/releases/download/v0.2.1/game-source.zip).
+An unofficial fan game for solo play and online rooms. Original game code is licensed under AGPL-3.0-only. Asset credits, license notices, and corresponding source information are in [LICENSING.txt](LICENSING.txt).

@@ -2,7 +2,7 @@ KIRBY'S SWEETS PARTY
 
 LOCAL SINGLE PLAYER
 
-1. Double click launch-game.bat.
+1. Extract the entire playable GitHub ZIP and double click launch-game.bat in the extracted folder.
 2. Wait for the local game to open in your browser.
 3. Leave the online room code blank.
 4. Choose Classic or Extended under Local single player.
